@@ -1,5 +1,11 @@
 {
-  "dependencies": {
-    "cypress": "^15.7.1"
+  "name": "wordpress-sqe",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0"
   }
 }
