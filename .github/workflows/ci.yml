@@ -1,0 +1,17 @@
+name: CI/CD Pipeline
+
+# STAGE 1 — SOURCE STAGE
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  source_stage:
+    name: Source Stage - Trigger
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
