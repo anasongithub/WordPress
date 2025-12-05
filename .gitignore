@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Cypress folders
+cypress/videos/
+cypress/screenshots/
+cypress/results/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other OS/IDE files
+.DS_Store
